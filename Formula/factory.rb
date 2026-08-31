@@ -17,11 +17,11 @@ class Factory < Formula
   # rejects url and sha256 inside them, and a formula that only works until
   # somebody audits it is a formula with a fuse in it.
   if Hardware::CPU.arm?
-    url "https://github.com/hev/factory/releases/download/v0.1.1/factory_0.1.1_darwin_arm64.tar.gz"
-    sha256 "27319afb615938df5aee5974db854c8e3dd7f8d496fd7c3b3bbb0deb75dbbbdf"
+    url "https://github.com/hev/factory/releases/download/v0.1.2/factory_0.1.2_darwin_arm64.tar.gz"
+    sha256 "e991111d2a63b96f90f5502dc64bb652d9b22308660d2a028c87ecd06d7d3af9"
   else
-    url "https://github.com/hev/factory/releases/download/v0.1.1/factory_0.1.1_darwin_amd64.tar.gz"
-    sha256 "3fce8cfaa2570dd6bc71a473c5de31a79fe3dc17a09cbb8f94504f3404fe7338"
+    url "https://github.com/hev/factory/releases/download/v0.1.2/factory_0.1.2_darwin_amd64.tar.gz"
+    sha256 "ef12d07fef1d1e9390ec4b76d2972ec7eb0134e6b3997624349406e15f26116c"
   end
 
   def install
