@@ -12,11 +12,11 @@ class Kit < Formula
   # Not `on_arm`/`on_intel`. Those blocks install and run, but `brew audit`
   # rejects url and sha256 inside them.
   if Hardware::CPU.arm?
-    url "https://github.com/hev/kit/releases/download/v0.3.3/kit_0.3.3_darwin_arm64.tar.gz"
-    sha256 "9ea7e31257345e71897ac404130de06abb0925fd398c1339d26d83805abd3202"
+    url "https://github.com/hev/kit/releases/download/v0.4.0/kit_0.4.0_darwin_arm64.tar.gz"
+    sha256 "961200c324af9ae364195fdc632bf80a754a023e4e2077e37cf48f2e511aedf3"
   else
-    url "https://github.com/hev/kit/releases/download/v0.3.3/kit_0.3.3_darwin_amd64.tar.gz"
-    sha256 "9d7b14fef377c3238aec7d4dad9fa3ea5c47cb9f61db2643d536c5195f0a2357"
+    url "https://github.com/hev/kit/releases/download/v0.4.0/kit_0.4.0_darwin_amd64.tar.gz"
+    sha256 "9e5b153654b05ebb4a50ff7aba787d65c94f2006984ba2fb6b99cfb472ea902a"
   end
 
   def install
