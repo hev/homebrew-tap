@@ -6,21 +6,21 @@ class Hev < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/hev/kit/releases/download/v0.6.0/kit_0.6.0_darwin_arm64.tar.gz"
-      sha256 "301d7b1c2541aa09c0a09a16fd1490b9622a92c87c491e54f2a2f635f298af02"
+      url "https://github.com/hev/kit/releases/download/v0.6.1/kit_0.6.1_darwin_arm64.tar.gz"
+      sha256 "754015df70b74bf3e94111746470bd6e729a0b74e0c31e0a9076dfdeeccfe591"
     else
-      url "https://github.com/hev/kit/releases/download/v0.6.0/kit_0.6.0_darwin_amd64.tar.gz"
-      sha256 "7ab6fb332bed0f6ef11d3430817c03f0a04d7820f95aafa1b99db60d0656c881"
+      url "https://github.com/hev/kit/releases/download/v0.6.1/kit_0.6.1_darwin_amd64.tar.gz"
+      sha256 "3bd629f554ed0364028ce0b3aeb9a50126a93480950546e36e32967c14c9508c"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/hev/kit/releases/download/v0.6.0/kit_0.6.0_linux_arm64.tar.gz"
-      sha256 "5a4d48ea741b788ed398a57972eea0a1fea1d064a05d6c4aa69c1f04b08e2003"
+      url "https://github.com/hev/kit/releases/download/v0.6.1/kit_0.6.1_linux_arm64.tar.gz"
+      sha256 "3938afb30c10e75b2761861c3452bf9c2456a8eb1153b3f41d154ad0b08f9599"
     else
-      url "https://github.com/hev/kit/releases/download/v0.6.0/kit_0.6.0_linux_amd64.tar.gz"
-      sha256 "cf0c1d4455c9512449aad88ac130266f536e22baa9d2fe7443ae36c7a7c35424"
+      url "https://github.com/hev/kit/releases/download/v0.6.1/kit_0.6.1_linux_amd64.tar.gz"
+      sha256 "a96c8344a325855a73a45c564064da8c64960b5192c2c4929f679fc7b2f94840"
     end
   end
 
