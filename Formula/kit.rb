@@ -2,8 +2,8 @@
 class Kit < Formula
   desc "Compatibility package for hev"
   homepage "https://hev.dev/kit"
-  url "https://github.com/hev/kit/archive/refs/tags/v0.6.0.tar.gz"
-  sha256 "674ade9461acff87696cef8454cd2abd3e6a79f7357bd60ebea476f69bd8824b"
+  url "https://github.com/hev/kit/archive/refs/tags/v0.6.1.tar.gz"
+  sha256 "77c74a52917ac537150efacb96045f6020c1ee0260364a7012cc557c75631f35"
   license "Apache-2.0"
 
   depends_on "hev/tap/hev"
